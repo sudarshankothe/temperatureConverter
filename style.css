@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+}
+#main {
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+h1 {
+  text-align: center;
+  padding: 30px 0px;
+
+  text-transform: uppercase;
+  color: orangered;
+}
+#container {
+  width: 700px;
+  text-align: center;
+  background-color: #1abc9c;
+  margin: auto;
+}
+.inpute-div {
+  display: inline-block;
+}
+.inp {
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 200;
+  text-align: center;
+}
+.inp:focus {
+  outline: none;
+}
+label {
+  font-size: 25px;
+}
